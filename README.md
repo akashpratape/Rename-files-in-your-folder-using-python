@@ -3,5 +3,7 @@
  
  --> currently this script is written to edit images as the extensions input are given as '.png', '.jpg', '.jpeg', '.gif', '.bmp'
 to edit accordingly change this line  - 
+
         if filename.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp')):
+        
 and edit extensions accordingly to your need
