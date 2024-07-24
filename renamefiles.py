@@ -7,7 +7,7 @@ def rename_files(folder_path):
 
     for filename in os.listdir(folder_path):
         if filename.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp')):
-            match = re.match(r'(your folder name) \((\d+)\)(\.[\w]+)$', filename)
+            match = re.match(r'(your file name) \((\d+)\)(\.[\w]+)$', filename)
             if match:
                 base_name = match.group(1)
                 number = match.group(2)
